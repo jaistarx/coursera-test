@@ -1,0 +1,106 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: darkblue;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color:yellow;
+  border-radius: 0;
+  border: 0;
+}
+
+
+
+
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#chicken span{
+  background-color: tomato;
+  font-size: 2em;
+}
+
+#chicken{
+  background-color: tomato;
+  margin: 20px;
+  margin-bottom: 50px;
+  padding: 5px;
+}
+#beef span{
+  background-color: green;
+  font-size: 2em;
+}
+#beef{
+  background-color: green;
+  margin: 20px;
+  margin-bottom: 50px;
+  padding: 5px;
+}
+#shushi span{
+  background-color: maroon;
+  font-size: 2em;
+}
+#shushi{
+  background-color: maroon;
+  margin: 20px;
+  margin-bottom: 50px;
+  padding: 5px;
+}
+
+#nav-list{
+  background-color: goldenrod;
+  color: white;
+  font-size: 130%;  
+  text-align: center;
+}
+#nav-list a:hover, a:active {
+  background-color:yellowgreen;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+  .navbar-brand p {
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img {
+    height: 20px;
+  }
+
+}
